@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var connectStatusLabel: UILabel!
     @IBOutlet weak var serverMessage: UITextView!
     @IBOutlet weak var userInput: UITextField!
     @IBOutlet var timeLabel: UILabel!
@@ -71,7 +70,7 @@ class ViewController: UIViewController {
     
     @IBAction func hitEnter(sender: UITextField) {
         commit()
-        userInput.becomeFirstResponder()
+        //userInput.becomeFirstResponder()
         updateUI()
     }
 
