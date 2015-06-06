@@ -76,6 +76,9 @@
                                     <action selector="getServerTime:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RTl-wC-UhV"/>
                                 </connections>
                             </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Mbr-jz-hi0">
+                                <rect key="frame" x="16" y="400" width="343" height="209"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
@@ -84,6 +87,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="mapview" destination="Mbr-jz-hi0" id="yPG-71-sfc"/>
                         <outlet property="serverMessage" destination="Wta-Ns-Xai" id="gHI-cu-cP9"/>
                         <outlet property="testLabel" destination="qzo-Ib-uT5" id="MEf-FK-j5b"/>
                         <outlet property="timeLabel" destination="WKh-hh-h6R" id="cRh-wU-dwm"/>

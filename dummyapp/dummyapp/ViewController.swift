@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MapKit
 
 class ViewController: UIViewController {
 
@@ -14,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var userInput: UITextField!
     @IBOutlet var timeLabel: UILabel!
     @IBOutlet weak var testLabel: UILabel!
+    @IBOutlet var mapview: MKMapView!
     
     private var connector: Connector!
     
