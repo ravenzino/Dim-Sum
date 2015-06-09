@@ -13,6 +13,10 @@
 		973D817B1B1990900078631E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 973D817A1B1990900078631E /* Images.xcassets */; };
 		973D817E1B1990900078631E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 973D817C1B1990900078631E /* LaunchScreen.xib */; };
 		973D818A1B1990910078631E /* dummyappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973D81891B1990910078631E /* dummyappTests.swift */; };
+		9755A1411B27381900129BB2 /* dumplings.png in Resources */ = {isa = PBXBuildFile; fileRef = 9755A13F1B27381900129BB2 /* dumplings.png */; };
+		9755A1421B27381900129BB2 /* steamed buns.png in Resources */ = {isa = PBXBuildFile; fileRef = 9755A1401B27381900129BB2 /* steamed buns.png */; };
+		9755A1441B27392600129BB2 /* hotdog.png in Resources */ = {isa = PBXBuildFile; fileRef = 9755A1431B27392600129BB2 /* hotdog.png */; };
+		9755A1461B273E8100129BB2 /* SteamedBunsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9755A1451B273E8100129BB2 /* SteamedBunsViewController.swift */; };
 		97A7ECEF1B1B4257007CFDEE /* DummyDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A7ECEE1B1B4257007CFDEE /* DummyDataSet.swift */; };
 		97A7ECF11B1C7A7E007CFDEE /* Connetctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A7ECF01B1C7A7E007CFDEE /* Connetctor.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +42,10 @@
 		973D81831B1990910078631E /* dummyappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dummyappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		973D81881B1990910078631E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		973D81891B1990910078631E /* dummyappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummyappTests.swift; sourceTree = "<group>"; };
+		9755A13F1B27381900129BB2 /* dumplings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dumplings.png; sourceTree = "<group>"; };
+		9755A1401B27381900129BB2 /* steamed buns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steamed buns.png"; sourceTree = "<group>"; };
+		9755A1431B27392600129BB2 /* hotdog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotdog.png; sourceTree = "<group>"; };
+		9755A1451B273E8100129BB2 /* SteamedBunsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SteamedBunsViewController.swift; sourceTree = "<group>"; };
 		97A7ECEE1B1B4257007CFDEE /* DummyDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyDataSet.swift; sourceTree = "<group>"; };
 		97A7ECF01B1C7A7E007CFDEE /* Connetctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connetctor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +92,7 @@
 				97A7ECED1B1B41CC007CFDEE /* Model */,
 				973D81731B1990900078631E /* AppDelegate.swift */,
 				973D81751B1990900078631E /* ViewController.swift */,
+				9755A1451B273E8100129BB2 /* SteamedBunsViewController.swift */,
 				973D81771B1990900078631E /* Main.storyboard */,
 				973D817A1B1990900078631E /* Images.xcassets */,
 				973D817C1B1990900078631E /* LaunchScreen.xib */,
@@ -96,6 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				973D81721B1990900078631E /* Info.plist */,
+				9755A13F1B27381900129BB2 /* dumplings.png */,
+				9755A1401B27381900129BB2 /* steamed buns.png */,
+				9755A1431B27392600129BB2 /* hotdog.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -206,9 +218,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9755A1441B27392600129BB2 /* hotdog.png in Resources */,
+				9755A1421B27381900129BB2 /* steamed buns.png in Resources */,
 				973D81791B1990900078631E /* Main.storyboard in Resources */,
 				973D817E1B1990900078631E /* LaunchScreen.xib in Resources */,
 				973D817B1B1990900078631E /* Images.xcassets in Resources */,
+				9755A1411B27381900129BB2 /* dumplings.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				973D81761B1990900078631E /* ViewController.swift in Sources */,
+				9755A1461B273E8100129BB2 /* SteamedBunsViewController.swift in Sources */,
 				973D81741B1990900078631E /* AppDelegate.swift in Sources */,
 				97A7ECF11B1C7A7E007CFDEE /* Connetctor.swift in Sources */,
 				97A7ECEF1B1B4257007CFDEE /* DummyDataSet.swift in Sources */,

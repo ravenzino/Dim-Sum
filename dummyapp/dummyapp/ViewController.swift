@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var serverMessage: UITextView!
     @IBOutlet weak var userInput: UITextField!
     @IBOutlet var timeLabel: UILabel!
-    @IBOutlet weak var testLabel: UILabel!
     @IBOutlet var mapview: MKMapView!
     
     private var connector: Connector!
@@ -86,13 +85,6 @@ class ViewController: UIViewController {
         })
         updateUI()
     }
-    
-    
-    @IBAction func testButton(sender: UIButton) {
-        var rand = random()
-        testLabel.text = String(rand)+":"+String(rand%10)
-        NSLog("rand is: " + String(rand%10))
-        updateUI()
-    }
+
 }
 
